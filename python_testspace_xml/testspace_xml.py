@@ -274,8 +274,7 @@ class XmlWriter:
     xmlTemplate = r'''
     <?xml-stylesheet type="text/xsl" xml version="1.0" encoding="UTF-8?>
     <reporter schema_version="1.0">
-    </reporter>
-    '''
+    </reporter>'''
 
     def __init__(self, report):
         self.report = report
